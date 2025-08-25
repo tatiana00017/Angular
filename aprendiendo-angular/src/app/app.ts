@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { VideojuegoComponent } from './videojuego/videojuego.componente'; 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, VideojuegoComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
